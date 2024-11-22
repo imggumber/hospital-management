@@ -4,7 +4,7 @@ if (basename($_SERVER['PHP_SELF']) == basename(__FILE__)) {
 }
 ?>
 
-<form class="form-login" action="" method="post">
+<form class="form-login text-center" action="" method="post">
     <div class="card-body">
         <div class="form-group row mb-2">
             <label for="inputEmail3" class="col-12 col-form-label">Email</label>
@@ -20,10 +20,8 @@ if (basename($_SERVER['PHP_SELF']) == basename(__FILE__)) {
         </div>
     </div>
     <!-- /.card-body -->
-    <div class="card-footer">
+    <div>
         <button type="submit" class="btn btn-primary me-2">Sign in</button>
-        <a href="" for="exampleCheck2">Forget Password?</a>
-        
+        <a href="" for="exampleCheck2">Forget Password?</a>    
     </div>
-    <!-- /.card-footer -->
 </form>
