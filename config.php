@@ -5,3 +5,6 @@ if (basename($_SERVER['PHP_SELF']) == basename(__FILE__)) {
 
 // core files
 require './core/config.php';
+
+// helper file
+require './utils/helper.php';
