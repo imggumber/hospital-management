@@ -1,0 +1,17 @@
+#main{
+    height: auto;
+    overflow-y: hidden;
+    & .content {
+        padding: 30vh 0;
+
+        & .form{
+            &-login {
+                & .card {
+                    &-footer {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
