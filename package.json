@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "sass": "sass --watch resources/scss/main.scss:public/css/main.css --style compressed"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^5.2.1",
