@@ -1,5 +1,8 @@
-// Mixin
+// Common
+@import './common/variables.scss';
 @import './common/mixin.scss';
+@import './common/global.scss';
+@import './common/components/sidebar.scss';
 
 // Pages
 @import './pages/login.scss';

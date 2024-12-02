@@ -1,0 +1,23 @@
+.sidebar{
+    height: 100%;
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 20vh;
+        &__items {
+            & nav {
+                display: flex;
+                flex-direction: column;
+                & a {
+                    margin-bottom: 20px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    & .name {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
