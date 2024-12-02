@@ -6,7 +6,13 @@ export default defineConfig({
     plugins: [
         vue(),
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            // Combine all input files into a single array
+            input: [
+                'resources/css/app.css',
+                'resources/js/app.js',
+                'resources/scss/main.scss',
+                'public/css/main.css'
+            ],
             refresh: true,
         }),
     ],
