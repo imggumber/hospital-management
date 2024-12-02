@@ -1,0 +1,12 @@
+body {
+    font-family: $font-family;
+    color: $font-color;
+
+    & a {
+        color: $font-color;
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}
+
