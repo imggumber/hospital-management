@@ -1,17 +1,9 @@
 <template>
-  <div class="container">
-    <div class="container-content">
-      
+  <div class="container form-container d-flex justify-content-center align-items-center">
+    <div class="container-content w-25">
+      <LoginForm/>
     </div>
-    <LoginForm/>
   </div>
-
-  <!-- <div>
-    <h1>HOME</h1>
-    <router-link to="/test">Take me to Test page</router-link>
-    <button @click.prevent="triggerEndpoint">Trigger Endpoint</button>
-    <p v-if="response">{{ response }}</p>
-  </div> -->
 </template>
 
 <script setup>
