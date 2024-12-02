@@ -5,7 +5,7 @@
                 <div class="dashboard__row">
                     <div class="dashboard__row__items border sidebar">
                         <div class="inner-content p-3">
-                            sidebar
+                            <Sidebar />
                         </div>
                     </div>
                     <div class="dashboard__row__items border topbar">
@@ -23,3 +23,7 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import Sidebar from '../Components/Sidebar.vue';
+</script>
