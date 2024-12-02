@@ -15,7 +15,7 @@ import router from '../router';
                             </RouterLink>
                             <RouterLink to="/">
                                 <span class="logo"><i class="fa-solid fa-calendar-check"></i></span>
-                                <span class="name">Appointments</span>
+                                <span class="name">Visits</span>
                             </RouterLink>
                             <RouterLink to="/">
                                 <span class="logo"><i class="fa-solid fa-people-group"></i></span>
