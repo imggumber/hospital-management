@@ -9,7 +9,7 @@
                         </div>
                     </div>
                     <div class="dashboard__row__items border topbar">
-                        <div class="inner-content container p-3">
+                        <div class="inner-content p-3">
                             topbar
                         </div>
                     </div>
