@@ -1,7 +1,8 @@
 <template>
-    <router-view v-slot="{ Component, route }">
-        <div :key="route.name">
-            <Component :is="Component" />
-        </div>
-    </router-view>
+    <v-app>
+        <v-main>
+            <component :is="$route.meta.Layout" />
+            <router-view />
+        </v-main>
+    </v-app>
 </template>
