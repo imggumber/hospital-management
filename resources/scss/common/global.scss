@@ -10,3 +10,6 @@ body {
     }
 }
 
+.box-shadow {
+    @include boxShadow;
+}

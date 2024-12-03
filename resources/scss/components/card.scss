@@ -1,0 +1,44 @@
+.card {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px !important; 
+    
+    & .icon-bg {
+        font-size: 3.5rem;
+        position: absolute;
+        bottom: 3px;
+        right: -10px;
+
+        & span {
+            & i {
+                color: $fade-icon;
+            }
+        }
+
+    }
+    
+    &__cont {
+        & .icon {
+            & span {
+                font-size: 20px;
+                border-radius: 100%;
+                padding: 6px;
+                background: rgba(255, 255, 255, 0.22);
+            }
+        }
+        & .content {
+            & p {
+                margin: 0;
+                font-weight: 500;
+            }
+            & h4 {
+                font-size: 20px;
+                margin-bottom: 0px;
+                font-weight: 900;
+            }
+        }
+    }
+}
