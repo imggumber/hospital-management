@@ -10,12 +10,12 @@
                     </div>
                     <div class="dashboard__row__items border topbar">
                         <div class="inner-content p-3">
-                            topbar
+                            <Topbar />
                         </div>
                     </div>
                     <div class="dashboard__row__items border content">
                         <div class="inner-content p-3">
-                            content
+                            <slot/>
                         </div>
                     </div>
                 </div>
@@ -26,4 +26,5 @@
 
 <script setup>
     import Sidebar from '../Components/Sidebar.vue';
+    import Topbar from '../Components/Topbar.vue';
 </script>
