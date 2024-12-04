@@ -40,7 +40,21 @@
                 & .inner-content {
                     height: 100%;
                     @include boxShadow;
+
+                    & .contentarea {
+                        & .cards {
+                            &__cont {
+                                &__content {
+                                    display: grid;
+                                    grid-template-columns: repeat(4, 1fr);
+                                    gap: 18px;
+                                }
+                            }
+                        }
+                    }
                 }
+
+
             }
         }
     }
