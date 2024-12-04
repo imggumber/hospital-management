@@ -1,8 +1,5 @@
 <template>
-    <v-app>
-        <v-main>
-            <!-- <component :is="$route.meta.Layout" />  -->
+        <main>
             <router-view />
-        </v-main>
-    </v-app>
+        </main>
 </template>
